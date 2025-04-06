@@ -1,6 +1,6 @@
 # 🐍 Exercícios de Python — Curso em Vídeo
 
-📘 Este repositório contém todos os **exercícios resolvidos** por mim durante o curso de **Python** ministrado pelo professor [Gustavo Guanabara](https://www.cursoemvideo.com/curso/python-3-mundo-1/) no **Curso em Vídeo**.
+📘 Este repositório contém todos os **exercícios resolvidos** por mim durante o curso de **Python** ministrado pelo professor [Gustavo Guanabara](https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0&index=2) no **Curso em Vídeo**.
 
 ---
 
