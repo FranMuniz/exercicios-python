@@ -1,5 +1,5 @@
 # Criar um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dólares e euros ela pode comprar.
-# Considere U$1 = R$5,90
+# Considere U$1 = R$5,90 e €1 = R$6,39
 
 real = float(input('Informe quantos R$ (reais) você tem na carteira?: '))
 dolar = float(5.90)
