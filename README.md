@@ -18,13 +18,3 @@ O curso de Python do Curso em Vídeo é voltado para iniciantes e apresenta de f
 ✔️ Meu progresso pessoal no estudo de Python!
 
 ---
-
-## 🗂️ Estrutura do repositório
-
-```bash
-.
-├── exercicio_001.py
-├── exercicio_002.py
-├── exercicio_003.py
-├── ...
-└── README.md
