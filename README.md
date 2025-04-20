@@ -12,9 +12,9 @@ O curso de Python do **Curso em Vídeo** é voltado para iniciantes e apresenta 
 
 ### 🧠 O que você vai encontrar aqui
 
-✔️ Exercícios resolvidos com comentários explicativos  
-✔️ Organização por módulos e numeração dos exercícios  
-✔️ Aprendizado progressivo  
-✔️ Meu progresso pessoal no estudo de Python!
+- Exercícios resolvidos com comentários explicativos  
+- Organização por módulos e numeração dos exercícios  
+- Aprendizado progressivo  
+- Meu progresso pessoal no estudo de Python!
 
 ---
