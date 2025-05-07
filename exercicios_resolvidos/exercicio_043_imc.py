@@ -23,3 +23,8 @@ elif 30 <= imc < 40:
     print('Atenção, você está obeso!')
 else:
     print('ATENÇÃO, você está com obesidade mórbida!!!')
+
+
+
+
+    
