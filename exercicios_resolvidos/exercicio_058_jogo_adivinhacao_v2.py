@@ -16,7 +16,7 @@ print('*-' * 28)
 print('Vou pensar em um número entre 0 e 10. Tente adivinhar 🤔')
 print('*-' * 28)
 
-jogador = int(input('Em que número eu pensei?: '))
+jogador = int(input('Em que número eu pensei? '))
 cont = 1
 
 while jogador != computador:

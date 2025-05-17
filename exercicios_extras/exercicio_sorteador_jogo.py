@@ -17,7 +17,7 @@ jogos = [
     "Resident Evil 5"
 ]
 jogo_escolhido = random.choice(jogos)
-print('\n🎲 Sorteando o melhor jogo ...')
+print('\n🎲 Escolhendo o melhor jogo ...')
 sleep(3)
 print('\n🧠 Calma, to pensando bem ...')
 sleep(2)
