@@ -1,12 +1,12 @@
 '''
 Crie um programa que leia dois valores e mostre um menu conforme exemplo abaixo.
-O programa deverá realizar a operação solicitada em cada caso.
 Ex: 
 [1] Somar
 [2] Multiplicar
 [3] Maior
 [4] Novos números
 [5] Sair do programa
+O programa deverá realizar a operação solicitada em cada caso.
 '''
 from time import sleep
 
