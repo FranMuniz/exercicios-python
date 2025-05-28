@@ -16,10 +16,6 @@ while True:
     preco = float(input('Preço: '))
     opcao = str(input('Quer continuar? [S/N] ')).strip().upper()[0]
 
-    if opcao not in 'SN':
-        print('Opção inválida! Digite S ou N.')
-        continue
-
     soma += preco 
     itens.append(preco)
 
