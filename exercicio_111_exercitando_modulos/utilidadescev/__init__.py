@@ -1,0 +1,1 @@
+from exercicio_111_exercitando_modulos import dado, moeda
