@@ -1,6 +1,6 @@
 try:
     a = int(input('Numerador: '))
-    b = int(input('Denomidaor: '))
+    b = int(input('Denominador: '))
     r = a / b 
 #except Exception as e:
     #print(f'Infelizmente tivemos um problema: {e}')
