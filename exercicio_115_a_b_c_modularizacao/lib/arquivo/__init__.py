@@ -2,7 +2,7 @@ from lib.interface import *
 
 def arquivoExiste(nome):
     try:
-        a = open(nome, 'rt')
+        a = open(nome, 'rt') # rt (read text)
         a.close()
     except FileNotFoundError:
         return False
@@ -12,7 +12,7 @@ def arquivoExiste(nome):
 
 def criarArquivo(nome):
     try:
-        a = open(nome, 'wt+') # o + é o comanmdo pra criar o arquivo caso não exista
+        a = open(nome, 'wt+') # wt (write text) o + é o comanmdo pra criar o arquivo caso não exista
         a.close()
     except:
         print('Houve um ERRO na criação do arquivo!')
@@ -22,9 +22,29 @@ def criarArquivo(nome):
 
 def lerArquivo(nome):
     try:
-        a = open(nome, 'rt')
+        a = open(nome, 'rt') # rt (read text)
     except:
         print('Erro ao ler o arquivo')
     else:
         cabecalho('PESSOAS CADASTRADAS')
-        print(a.read())
+        for linha in a:
+            dado = linha.split(';')
+            dado[1] = dado[1].replace('\n', '')
+            print(f'{dado[0]:<30}{dado[1]:>3} anos')
+    finally:
+        a.close()
+
+
+def cadastrar(arquivo, nome='desconhecido', idade=0):
+    try:
+        a = open(arquivo, 'at') # at (append text)
+    except:
+        print('Hove um erro na abertura do arquivo!')
+    else:
+        try:    
+            a.write(f'{nome};{idade}\n')
+        except:
+            print('Houve um ERRO na hora de escrever os dados!')
+        else:
+            print(f'Novo registro de {nome} adicionado.')
+            a.close()
