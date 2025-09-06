@@ -6,11 +6,18 @@ cadastradas.
 '''
 from time import sleep
 from lib.interface import *
+from lib.arquivo import *
+
+arquivo = 'curso.txt'
+
+if not arquivoExiste(arquivo):
+    criarArquivo(arquivo)
 
 while True:
     resposta = menu(['Listar Pessoas', 'Cadastrar Pessoas', 'Sair'])
     if resposta == 1:
-        cabecalho('Opção 1')
+        # Opção de listar o conteúdo de um arquivo
+        lerArquivo(arquivo)
     elif resposta == 2:
         cabecalho('Opção 2')
     elif resposta == 3:
